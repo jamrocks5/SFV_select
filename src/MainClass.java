@@ -1,12 +1,12 @@
 public class MainClass {
 
-    static final int NUM_FIGHTERS = 17;
+    static final int NUM_FIGHTERS = 18;
 
 
     public static void main(String[] args){
 
         String[] fightNames = { "Alex",
-                "Birdie", "Bison","Cammy","Chun-li","Dhalsim","Fang",
+                "Birdie", "Bison","Cammy","Chun-li","Dhalsim","Fang", "Guile",
                 "Karin","Ken","Laura","Mika","Nash","Necalli","Rashid",
                 "Ryu","Vega","Zangief"};
 
