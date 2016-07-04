@@ -24,7 +24,7 @@ class GUI extends JFrame{
     private Border myBorder = new LineBorder(Color.BLACK);
     private boolean flipFlag = false;
     private final int ROWS = 4;
-    private final int COL = 5;
+    private final int COL = 6;
     private final int WIDTH= 122 * COL;
     private final int HEIGHT = (142 * ROWS) + (9*ROWS);
 
@@ -65,6 +65,10 @@ class GUI extends JFrame{
                 //add selected into list.
                 for(int i=0; i < buttons.length; i++){
                     if(buttons[i].isSelected()){
+                        if(fighters[i].getName().equals("Urien") || fighters[i].getName().equals("Juri"))
+                        {
+                            continue;
+                        }
                         list.add(fighters[i].getName());
                     }
                 }

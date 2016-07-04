@@ -1,14 +1,14 @@
 public class MainClass {
 
-    static final int NUM_FIGHTERS = 18;
+    static final int NUM_FIGHTERS = 22;
 
 
     public static void main(String[] args){
 
-        String[] fightNames = { "Alex",
+        String[] fightNames = { "Alex", "Balrog",
                 "Birdie", "Bison","Cammy","Chun-li","Dhalsim","Fang", "Guile",
-                "Karin","Ken","Laura","Mika","Nash","Necalli","Rashid",
-                "Ryu","Vega","Zangief"};
+                "Juri","Ibuki","Karin","Ken","Laura","Mika","Nash","Necalli","Rashid",
+                "Ryu","Urien","Vega","Zangief"};
 
         IconData[] fighters = new IconData[NUM_FIGHTERS];
 
